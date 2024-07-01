@@ -1,2 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("/src/scss/_globals.scss");
+@import url("/src/scss/_variables.scss");
+
+&menu
+
 html { background-color: #FFFFF0; }
+
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Figtree', sans-serif;
+      color: #1004;
+      background-color: #FFFFF0;;
+      flex-direction: column;
+}
+.container {
+  text-align: center;
+}
+svg {
+  margin: 10px;
+}
