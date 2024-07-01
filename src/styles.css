@@ -1,8 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("/src/scss/_globals.scss");
-@import url("/src/scss/_variables.scss");
-
-&menu
+@import url("scss/_globals.scss");
+@import url("scss/_variables.scss");
 
 html { background-color: #FFFFF0; }
 
